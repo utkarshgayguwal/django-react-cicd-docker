@@ -173,7 +173,7 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
 frontend/Dockerfile
-backend-drf/.env.docker
-backend-drf/.env.production
-backend-drf/Dockerfile
+backend/.env.docker
+backend/.env.production
+backend/Dockerfile
 docker-compose.yml
