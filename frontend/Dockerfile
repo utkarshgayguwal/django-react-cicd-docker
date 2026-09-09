@@ -1,10 +1,13 @@
 # Stage 1: Build
-FROM node:22 AS build
+FROM node:22-alpine AS build
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+
+# RUN npm install
+# npm ci installs exact versions from package-lock.json and avoids caching bloat
+RUN npm ci --prefer-offline --no-audit
 
 COPY . .
 
