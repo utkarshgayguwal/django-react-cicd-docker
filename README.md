@@ -33,8 +33,8 @@ Install the following on your system:
 ## 📦 Step 1 — Clone the Project
 
 ```sh
-git clone https://github.com/dev-rathankumar/django_clickmart_
-cd django_clickmart_
+git clone https://github.com/utkarshgayguwal/django_clickmart
+cd django_clickmart
 ```
 
 ## Step 2 - Remove Git history
@@ -283,7 +283,7 @@ docker compose exec backend python manage.py createsuperuser
 
 ## Create Linode Server & SSH Key
 
-👉 [Create a Linode account](https://rathank.appzoneit.com/linode/)
+👉 Create a Linode account
 
 ##### Create SSH Key
 
