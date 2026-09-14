@@ -33,8 +33,8 @@ Install the following on your system:
 ## 📦 Step 1 — Clone the Project
 
 ```sh
-git clone https://github.com/utkarshgayguwal/django_clickmart
-cd django_clickmart
+git clone https://github.com/utkarshgayguwal/django-react-cicd-docker.git
+cd django-react-cicd-docker
 ```
 
 ## Step 2 - Remove Git history
